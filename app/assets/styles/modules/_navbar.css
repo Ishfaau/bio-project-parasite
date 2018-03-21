@@ -3,6 +3,10 @@
         padding: 0.5rem 1rem;
         border-radius: 1rem 1rem 0 0;
         font-size: 0.9rem;
+
+        &__submenu {
+            display: none;
+        }
         
         
     
