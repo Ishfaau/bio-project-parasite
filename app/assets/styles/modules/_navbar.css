@@ -1,0 +1,55 @@
+.navbar {
+        background-color: black;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem 1rem 0 0;
+        font-size: 0.9rem;
+        
+        
+    
+    @mixin atMedium {
+        float: left;
+        width: 10%;
+        background-color: black;
+        padding: 0 1rem;
+        border-radius: 1rem 0 0 1rem;
+        
+    }
+    
+   
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    ul li {
+        
+        color: white;
+        list-style: none;
+        font-size: 0.8rem;
+        padding: 0.125rem 0.125rem;
+        margin: 1.125rem 1rem; 
+        text-align: center;
+        display: inline;
+        
+        
+            @mixin atMedium {
+            font-size: 1rem;
+            list-style: none;
+            text-align: center;
+            width: 100%;
+            margin: 1.125rem 0;    
+            transform: scale(1);
+            display: block;    
+            border-radius: 0.5rem;
+            box-sizing: border-box;
+
+            &:hover {
+                cursor: pointer;
+                background-color: grey;
+                color: black;
+            }
+        }    
+    }
+}

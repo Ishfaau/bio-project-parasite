@@ -1,0 +1,27 @@
+
+h1 {
+    text-align: center;
+    font-size: 1.3rem; 
+    
+    @mixin atMedium {
+        font-size: 2rem;
+    }
+    
+    
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $mainFont;
+    color: black;
+    background-color: white;
+}
+
+
+.container {
+    @mixin clearfix;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}    
